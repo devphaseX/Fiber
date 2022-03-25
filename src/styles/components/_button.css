@@ -1,0 +1,28 @@
+.button {
+  display: inline-block;
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+
+.button-primary,
+.button-secondary,
+.button-tertiary {
+  border-radius: 5px;
+  padding-block: 20px;
+}
+.button-primary {
+  background-color: var(--colour-primary);
+  color: var(--primary-button-colour);
+}
+
+.button-secondary {
+  background-color: var(--white);
+  color: var(--colour-primary);
+}
+
+.button-tertiary {
+  border: 2px solid var(--darkish-grey-4);
+  color: var(--colour-primary);
+  padding-inline: 28px;
+}

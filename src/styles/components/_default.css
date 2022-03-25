@@ -1,0 +1,53 @@
+*::before,
+*,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:focus {
+  outline: none;
+  border: none;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+html {
+  text-rendering: optimizeLegibility;
+  font-size: var(--root-font-size);
+}
+
+html,
+body {
+  font-family: var(--font-family);
+}
+
+body {
+  min-width: var(--layout-max-width);
+  width: 100%;
+}
+
+span {
+  display: inline-block;
+}
+
+body > * {
+  padding-inline: var(--layout-boundary-space);
+}
+
+h2 {
+  font-size: 3.5rem;
+  line-height: 48px;
+}
+
+img {
+  display: inline-block;
+  width: 100%;
+}

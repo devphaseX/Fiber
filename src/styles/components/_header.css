@@ -1,0 +1,35 @@
+.main-header {
+  background-color: var(--milky-cream);
+  padding-block: 40px 124px;
+}
+
+.main-header > .nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 144px;
+}
+
+.navigation .nav-list {
+  display: inline-flex;
+  column-gap: 24px;
+}
+
+.brand-logo {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.navigation .nav-list {
+  font-size: 1.8rem;
+}
+
+.nav_call-to-actions {
+  display: flex;
+  column-gap: 40px;
+  align-items: center;
+}
+
+.nav_call-to-actions a#sign-up {
+  padding-inline: 32px;
+}

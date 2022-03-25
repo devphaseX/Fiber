@@ -1,0 +1,57 @@
+.user-reviews {
+  margin-block: 80px;
+}
+
+.review-container {
+  display: flex;
+}
+
+.review {
+  padding: 28px 24px;
+  border: 2px solid var(--darkish-grey-4);
+  border-radius: 8px;
+}
+
+.review:not(:last-of-type) {
+  margin-right: 40px;
+}
+
+.review_user-info,
+.review_user-info > div:last-child {
+  display: inline-flex;
+}
+
+.review_user-info {
+  column-gap: 16px;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.review_user-info > div:last-child {
+  flex-direction: column;
+  row-gap: 4px;
+}
+
+.review header {
+  font-size: 1.6rem;
+}
+
+.review_user-info h3 {
+  color: var(--colour-primary);
+}
+
+.review_user-info p {
+  color: var(--darkish-grey-3);
+}
+
+.review article {
+  font-size: 1.8rem;
+  line-height: 20px;
+  color: var(--darkish-grey-2);
+}
+
+.review .button-tertiary {
+  width: 100%;
+  text-align: center;
+  margin-top: 32px;
+}

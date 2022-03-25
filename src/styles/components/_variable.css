@@ -1,0 +1,23 @@
+:root {
+  /* layout */
+  --grid-column: repeat(12, 1fr);
+  --grid-column-gap: 16px;
+  --layout-max-width: 1140px;
+  --layout-boundary-space: 140px;
+  /* colour */
+  --white: #fff;
+  --milky-cream: #faf9f2;
+  --purpish-blue: #6c00d3;
+  --darkish-grey: #0f0f0f;
+  --darkish-grey-2: #434343;
+  --darkish-grey-3: #797979;
+  --darkish-grey-4: #d1d1d1;
+  --colour-primary: var(--purpish-blue);
+
+  /* button */
+  --primary-button-colour: var(--white);
+
+  /* font */
+  --font-family: 'inter', sans-serif;
+  --root-font-size: 64.5%;
+}

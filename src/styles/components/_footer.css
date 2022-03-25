@@ -1,0 +1,35 @@
+.main-footer {
+  background-color: var(--milky-cream);
+  padding-block: 68px;
+  display: flex;
+  font-size: 1.6rem;
+  line-height: 24px;
+}
+
+.main-footer .brand-info {
+  width: 416px;
+  margin-right: 72px;
+}
+
+.main-footer .brand-info h3 {
+  margin-bottom: 16px;
+}
+
+.main-footer .brand-info p,
+.main-footer li {
+  color: var(--darkish-grey-2);
+}
+
+.footer_nav-list li:not(:last-of-type) {
+  margin-bottom: 16px;
+}
+
+.main-footer > .navigation {
+  display: flex;
+  flex-grow: 1;
+  justify-content: space-between;
+}
+
+.main-footer .footer_nav-list h3 {
+  margin-bottom: 20px;
+}
