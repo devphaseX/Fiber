@@ -51,3 +51,8 @@ img {
   display: inline-block;
   width: 100%;
 }
+
+.brand-logo {
+  font-size: 20px;
+  font-weight: 700;
+}

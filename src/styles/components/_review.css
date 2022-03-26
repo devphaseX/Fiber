@@ -4,12 +4,14 @@
 
 .review-container {
   display: flex;
+  flex-shrink: 0;
 }
 
 .review {
   padding: 28px 24px;
   border: 2px solid var(--darkish-grey-4);
   border-radius: 8px;
+  width: 527px;
 }
 
 .review:not(:last-of-type) {

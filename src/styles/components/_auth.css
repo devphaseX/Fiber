@@ -1,0 +1,157 @@
+.auth-container {
+  padding-top: 64px;
+  background: linear-gradient(
+    to right,
+    var(--white) 50%,
+    var(--colour-primary) 50%
+  );
+  padding-bottom: 112px;
+}
+
+.auth-container > header:first-of-type {
+  margin-bottom: 64px;
+}
+
+.auth-container .brand-logo a {
+  color: currentColor;
+}
+
+.auth-container > * {
+  min-width: var(--layout-max-width);
+  padding-inline: var(--layout-boundary-space);
+}
+
+.auth-main {
+  display: flex;
+}
+
+.auth-main > * {
+  flex-basis: 50%;
+}
+
+.form-block {
+  width: 440px;
+}
+
+.form-block-title {
+  margin-bottom: 64px;
+}
+
+.form-block__inputs > div {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
+
+.form-block__inputs > div#terms_condition {
+  flex-direction: row-reverse;
+  justify-content: start;
+  font-size: 1.6rem;
+  align-items: flex-start;
+  column-gap: 12px;
+}
+
+#terms_condition label {
+  transform: translateY(-4px);
+  line-height: 24px;
+  color: var(--darkish-grey-2);
+}
+
+#terms_condition input:checked {
+  background-color: var(--colour-primary);
+}
+
+#terms_condition .terms a {
+  color: var(--colour-primary);
+  font-weight: 600;
+  border-bottom: 2px solid var(--colour-primary);
+  padding-bottom: 2px;
+}
+
+.input-block:not(:last-of-type) {
+  margin-bottom: 32px;
+}
+
+#password-block.input-block {
+  margin-bottom: 24px;
+}
+
+.input-block label {
+  font-size: 1.6rem;
+  margin-bottom: 12px;
+}
+
+.input-block input {
+  display: inline-block;
+  width: 100%;
+  padding: 16px;
+  height: 56px;
+  width: 100%;
+  font: inherit;
+  font-size: 1.8rem;
+  outline: none;
+  border-radius: 4px;
+  border: 1px solid var(--darkish-grey-4);
+}
+
+.input-block input:focus {
+  border-color: var(--darkish-grey-2);
+}
+
+.input-block input::placeholder {
+  color: var(--darkish-grey-4);
+}
+
+.form-block__inputs .auth-action-button {
+  margin-top: 32px;
+}
+
+.form-block__inputs .auth-action-button a {
+  width: 100%;
+  text-align: center;
+}
+
+.change-auth-type {
+  margin-top: 24px;
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 400;
+}
+
+.change-auth-type span a {
+  color: var(--colour-primary);
+  font-size: 1.6rem;
+  font-weight: 600;
+}
+
+.slide {
+  display: inline-block;
+  width: 533px;
+}
+
+.slides {
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+}
+
+.slide .slide__image {
+  margin-bottom: 40px;
+}
+
+.slide_image img {
+  display: block;
+  width: 100%;
+  object-fit: cover;
+}
+
+.slide__content {
+  text-align: center;
+  color: var(--white);
+}
+
+.slide__content > p {
+  font-size: 1.8rem;
+  word-wrap: break-word;
+  line-height: 24px;
+}

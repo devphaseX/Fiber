@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../styles/page/login.css" />
+    <title>Login - Fiber</title>
+  </head>
+  <body>
+    <div class="auth-container">
+      <header>
+        <h3 class="brand-logo"><a href="../pages/index.html">Fiber</a></h3>
+      </header>
+      <div class="auth-main">
+        <div>
+          <h2 class="form-block-title">Create your Fiber account</h2>
+          <div class="form-block">
+            <form class="form-block__inputs">
+              <div class="input-block">
+                <label for="user_fullname">Your Name</label>
+                <input type="text" placeholder="John Doe" id="user_fullname" />
+              </div>
+              <div class="input-block">
+                <label for="user_email">E-mail</label>
+                <input
+                  type="email"
+                  placeholder="John@example.com"
+                  id="user_email"
+                />
+              </div>
+              <div class="input-block" id="password-block">
+                <label for="user_password">Your Password</label>
+                <input
+                  type="password"
+                  placeholder="At least 8 characters"
+                  id="user_password"
+                />
+              </div>
+              <div id="terms_condition">
+                <label
+                  >By creating an account on Fiber, you agree to the
+                  <span class="terms"><a>Terms & Conditions</a></span></label
+                >
+                <input type="checkbox" />
+              </div>
+              <div class="auth-action-button">
+                <a class="button button-primary">Create a Fiber account</a>
+              </div>
+            </form>
+            <div class="change-auth-type">
+              Alreay have an account ? <span><a>Sign in</a></span>
+            </div>
+          </div>
+        </div>
+
+        <div class="slides">
+          <div class="slide">
+            <div class="slide__image">
+              <img src="../assets/img/Sign-Up-Image.png" />
+            </div>
+            <div class="slide__content">
+              <h2>Unparalleled Template</h2>
+              <p>
+                Crafted by a team of professional designers, our templates are
+                enunparalleled in the market
+              </p>
+            </div>
+          </div>
+          <div class="slides_indicator"></div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
