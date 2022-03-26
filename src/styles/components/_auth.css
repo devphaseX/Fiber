@@ -1,5 +1,5 @@
 .auth-container {
-  padding-top: 64px;
+  padding-top: 48px;
   background: linear-gradient(
     to right,
     var(--white) 50%,
@@ -154,4 +154,8 @@
   font-size: 1.8rem;
   word-wrap: break-word;
   line-height: 24px;
+}
+
+.slide__content .pag-indicator {
+  margin-top: 32px;
 }

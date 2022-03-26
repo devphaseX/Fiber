@@ -3,4 +3,5 @@
 @import url(../components/_default.css);
 @import url(../components/_button.css);
 @import url(../components/_resetDefaultStyleForLogin.css);
+@import url(../components/_pagination-dot.css);
 @import url(../components/_auth.css);
